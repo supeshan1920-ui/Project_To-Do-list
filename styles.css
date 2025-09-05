@@ -60,3 +60,6 @@ body{
     background: rgba(255, 194, 209, 0.3);
     color: #4e4e4e;
 }
+.input-area::placeholder{
+    color: #ffffff;
+}
