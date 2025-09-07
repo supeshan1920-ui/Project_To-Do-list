@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const taskList = document.getElementById('taskList');
 
     const addTask = (event) => {
+        event.preventDefault();
         const taskText = taskInput.value.trim();
         if (!taskText) {
             return; 
