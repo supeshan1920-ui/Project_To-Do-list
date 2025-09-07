@@ -81,3 +81,12 @@ body{
     transform: scale(1.1);
     background: #ff6f91
 }
+.todo-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tasklist{
+    width: 100%;
+}
+
