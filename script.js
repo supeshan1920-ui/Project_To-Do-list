@@ -2,10 +2,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const taskInput = document.getElementById('task-input');
     const addTaskButton = document.getElementById('add-task-btn');
     const taskList = document.getElementById('task-list');
-    const emptyimage = document.querySelector('empty-image');
+    const emptyimage = document.querySelector('.empty');
 
     const toggleEmptyImage = () => {
-        emptyimage.computedStyleMap.display = taskList.children.length === 0 ? 'block' : 'none';
+        emptyimage.Style.display = taskList.children.length === 1 ? 'block' : 'none';
+    };
 
     const addTask = (event) => {
         event.preventDefault();
