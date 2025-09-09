@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const emptyimage = document.querySelector('.empty');
 
     const toggleEmptyImage = () => {
-        emptyimage.Style.display = taskList.children.length === 1 ? 'block' : 'none';
+        emptyimage.style.display = taskList.children.length === 0 ? 'block' : 'none';
     };
 
     const addTask = (event) => {
