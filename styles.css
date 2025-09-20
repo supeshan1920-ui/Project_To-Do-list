@@ -148,7 +148,7 @@ body{
 }
 
 .task-buttons button{
-    background: rgba(250, 164, 164, 0.8);
+    background: rgb(252, 255, 48);
     border: none;
     border-radius: 50%;
     width: 30px;
