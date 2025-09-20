@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const li = document.createElement('li');
         li.innerHTML = `
         <input type="checkbox" class="checkbox">
-        <span>${taskText}<>span>
+        <span>${taskText}<span>
         `;
         taskList.appendChild(li);
         taskInput.value = '';
