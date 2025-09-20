@@ -120,10 +120,21 @@ body{
 }
 
 #task-list li.checkbox:checked{
-    content: '\2713';
+    background: #ff6f91;
+    transform: scale(1.1);
+}
+
+#task-list li .checkbox:checked::before{
+    content: '/2713';
     color: #fff;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     font-size: 1rem;
+}
+
+#task-list li span{
+    flex: 1;
+    margin-left: 10px;
+    word-wrap: break-word;
 }
