@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const emptyimage = document.querySelector('.empty');
 
     const toggleEmptyImage = () => {
-        emptyimage.style.display = task-List.children.length === 0 ? 'block' : 'none';
-    };
+    emptyimage.style.display = taskList.children.length === 0 ? 'block' : 'none';
+};
 
     const addTask = (event) => {
         event.preventDefault();
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const li = document.createElement('li');
         li.innerHTML = `
         <input type="checkbox" class="checkbox">
-        <span>${taskText}<span>
+        <span>${taskText}</span>
         `;
         taskList.appendChild(li);
         taskInput.value = '';
