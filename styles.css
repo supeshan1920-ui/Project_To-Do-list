@@ -82,6 +82,7 @@ body{
     background: #ff6f91
 }
 .todo-app{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,7 +149,7 @@ body{
 }
 
 .task-buttons button{
-    background: rgb(252, 255, 48);
+    background: rgb(250, 163, 32);
     border: none;
     border-radius: 50%;
     width: 30px;
@@ -168,5 +169,9 @@ body{
 }
 
 .task-buttons .edit-btn{
-    background: rgb(234, 222, 54);
+    background: rgb(250, 163, 32);
+}
+
+.task-buttons .delete-btn{
+    background: #ff6f91
 }
