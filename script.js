@@ -3,12 +3,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const addTaskButton = document.getElementById('add-task-btn');
     const taskList = document.getElementById('task-list');
     const emptyimage = document.querySelector('.empty');
-    const todoapp = document.querySelector('todo-app');
+    const todoapp = document.querySelector('.todo-app');
 
-    const toggleEmptyImage = () => {
+   const toggleEmptyImage = () => {
     const hasTasks = taskList.querySelectorAll('li').length > 0;
-    emptyimage.style.display = hasTasks ? 'none' : 'block';
-    todoapp.style.width <0 taskList.children.lenght > 0 ? '100%' : '50%';
+    if (emptyimage) emptyimage.style.display = hasTasks ? 'none' : 'block';
+    if (todoapp) todoapp.style.width = hasTasks ? '100%' : '50%';
 };
 
     const addTask = (event) => {
